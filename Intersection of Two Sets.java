@@ -11,12 +11,12 @@ public class IntersectionTwoSets{
         HashSet<Integer> set2 = new HashSet<Integer>();
         set2.addAll(Arrays.asList(17, 20, 32, 4,51));
 
-        HashSet<Integer> Intersection = new HashSet<>(set1);// Create a new HashSet to store the intersection
+        HashSet<Integer> IntersectionSet = new HashSet<>(set1);// Create a new HashSet to store the intersection
 
-        Intersection.retainAll(set2);
+        IntersectionSet.retainAll(set2);
 
         System.out.println("Intersection of set1 and set2:");  // Print the intersection
-        System.out.println(Intersection);
+        System.out.println(IntersectionSet);
     }
 
 
