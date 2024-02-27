@@ -1,7 +1,7 @@
 
 import java.util.HashSet;
 import java.util.Arrays;
-public class main{
+public class RemoveIf {
     public static void main(String[] args) {
 
 
@@ -20,7 +20,7 @@ public class main{
             // If 3 is not present print
             System.out.println("Number 3 is not present in the set.");
         }
-        
+
     }
-    
+
 }
