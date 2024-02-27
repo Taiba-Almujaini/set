@@ -1,12 +1,12 @@
 
 import java.util.HashSet;
 import java.util.Arrays;
-public class main{
+public class SetsOfSets {
     public static void main(String[] args) {
 
-        HashSet<HashSet<Integer>> setOfset = new HashSet<>();// create set of set 
+        HashSet<HashSet<Integer>> setOfset = new HashSet<>();// create set of set
 
-        // create 3 sets with integers values 
+        // create 3 sets with integers values
         HashSet<Integer> set1 = new HashSet<>();
         set1.addAll(Arrays.asList(3, 8, 1));
         setOfset.add(set1);
