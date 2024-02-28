@@ -23,7 +23,7 @@ public class UnionOfSets {
         unionSet.addAll(thirdSet);// Add all elements from set3 to the union
 
         // Print the union
-        System.out.println("union of set1 ,set2 and set3:");
+        System.out.println("union of firstSet ,secondSet and thirdSet:");
         System.out.println(unionSet);
     }
 
