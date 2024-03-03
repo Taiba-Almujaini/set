@@ -17,7 +17,13 @@ public class FirstRecurringCharacter{
                 break;
             } else {
                 characterSet.add(character);
+
+
             }
+        }
+ // check if there are no repeated character
+        if (input.length() == characterSet.size()) { 
+            System.out.println("There are no repeated characters in the input string.");
         }
 
     }
